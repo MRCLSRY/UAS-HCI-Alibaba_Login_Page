@@ -1,0 +1,171 @@
+<!-- Marcelius Surya Wijaya - 2502001164 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Import Icon -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+   
+    <title>Alibaba Cloud</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Header, Under Header, Main, Footer -->
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html"><img class="logo" src="photo/logo.png"></a>
+        <div class="head">
+           <a href="index.html">
+                <i class="fa fa-globe"></i>
+                Intl-English 
+                <i class='fa fa-angle-down'></i>
+            </a>
+           <a href="index.html">Homepage</a>
+           <a href="index.html">Login</a>
+        </div>
+    </header>
+
+    <!-- Under Header -->
+    <div class="underHead">
+        <h3>Create Your Alibaba Cloud Account</h3>
+        <h5>Free Access to Over 50 Products and Up to 12 Months Usage for Elastic Compute Service!</h5>
+    </div>
+
+    <div class="mid">
+
+        <!-- Form -->
+        <form id="box" class="form">
+
+            <!-- Country -->
+            <div class="inputCountry">
+                <select name="country" class="country">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Canada">Canada</option>
+
+                </select>
+                <p class="alert">
+                    <span class="i">i</span>
+                    Country/region will be used for currency and tax purposes and cannot be changed after registration.
+                </p>
+            </div>
+
+            <!-- Email -->
+            <div id ="form" class="input">
+                <input type="text" class="textBoxs" placeholder="Enter your email" id="email" onkeydown="emails()">
+                <span id="alertMail"></span>
+            </div>
+            
+            <!-- Password -->
+            <div id ="form" class="input">
+                <input type="password" class="textBoxs"placeholder="Enter your password" id="passwords" onkeydown="passwordss()">
+                <span id="alertPass"></span>
+            </div>
+            
+            <!-- Confirm Password -->
+            <div id ="form" class="input">
+                <input type="password" class="textBoxs" placeholder="Confirm your password" id="confrimPass" onkeydown="passwordsConfirm()">
+                <span id="alertCheck"></span>
+            </div>
+
+            <div class="check">
+                <!-- Checkbox -->
+                <input type="checkbox" class="checkButton" id="check" onchange="checkAll()">
+
+                <!-- Agreement -->
+                <div class="checkLabel">
+                    <p>I hereby agree to the Alibaba Cloud International Website 
+                        <span class="orange">Membership <br>
+                        Agreement, Privacy Policy, Product Terms</span> and 
+                        <span class="orange">Terms of Use</span>, 
+                        under which I am <br>
+                        contracting with Alibaba Cloud (Singapore) Private Limited.
+                    </p>
+                </div>
+            </div>
+            
+            <button type="signIn" id="confirmButton" class="button" disabled>Confirm</button>
+            <p class="signIn">Already a member? 
+                <a href="" class="orange">Sign In</a>
+            </p> 
+        </form>
+
+        <!-- Right Content -->
+        <div class="detailRight">
+            <h4>Account Benefits & Registration Tips</h4>
+
+            <div class="rightDesc">
+                <h6>Free Trial</h6>
+                <p>
+                    Get free hands-on experience with 50+<br> 
+                    products. Now up to 12 Months for Elastic<br> 
+                    Compute Service!
+                </p>
+            </div>
+
+            <div class="rightDesc">
+                <h6>Premium Support Services</h6>
+                <p>
+                    <span class="orange">1-on-1 pre-sale consultation</span>, 
+                    24/7 after-sales technical support with 6 free tickets per quarter
+                </p>
+            </div>
+
+            <div class="rightDesc">
+                <h6>How do I select the country or region of my account?</h6>
+                <p>For enterprise customers, please select the<br>
+                    account registration country/region based on<br>
+                    your business license. If not, you may be<br>
+                    unable to obtain the correct invoice for tax<br>
+                    deduction, and may not be eligible for your<br>
+                    local tax free policy, or may even be unable to<br>
+                    pay for the invoice
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footAbout">
+               <a href="index.html">About Us</a>
+               <a href="index.html">Privacy Policy</a>
+               <a href="index.html">Legal</a>
+               <a href="index.html">Notice List</a>
+        </div>
+        <div class="footAlibaba">
+               <a href="index.html">Alibaba Group</a>
+               <a href="index.html">Taobao Marketplace</a>
+               <a href="index.html">Tmall</a>
+               <a href="index.html">Juhuasuan</a>
+               <a href="index.html">AliExpress</a>
+               <a href="index.html">Alibaba.com</a>
+               <a href="index.html">1688</a>
+               <a href="index.html">Alimama</a>
+               <a href="index.html">Alitrip</a>
+               <a href="index.html">YunOS</a>
+               <a href="index.html">AliTelecom</a>
+               <a href="index.html">AutoNavi</a>
+               <a href="index.html">UCWeb</a>
+               <a href="index.html">Umeng</a>
+               <a href="index.html">Xiami</a>
+               <a href="index.html">DingTalk</a>
+               <a href="index.html">Alipay</a>
+        </div>
+        &copy; 2009-2021 Copyright by Alibaba Cloud All rights reserved
+    </footer>
+
+    <!-- Js Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
